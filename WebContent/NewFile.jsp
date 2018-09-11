@@ -13,7 +13,7 @@
 </head>
 <body>
 	<div class="container">
-		<h1>Hello JSP5252</h1>
+		<h1>Hello JSP</h1>
 	</div>
 </body>
 </html>

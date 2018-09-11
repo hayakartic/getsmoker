@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 컴파일 결과물 제외
 *.com
 *.class
@@ -39,3 +40,6 @@ local.properties
 .buildpath
 .target
 /build/
+=======
+/build/
+>>>>>>> 17b0f4b016bde029d5b034f349d594bd7ed4cb52
