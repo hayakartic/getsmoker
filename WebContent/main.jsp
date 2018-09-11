@@ -73,7 +73,7 @@
 						</ul>
 						<ul class="gnb2">
 							<li><a href="#">흡/금연구역</a></li>
-							<li><a href="#">전자담배</li>
+							<li><a href="#">전자담배</a></li>
 							<li><a href="#">선호도</a></li>
 							<li><a href="#">자유게시판</a></li>
 						</ul>
@@ -91,7 +91,7 @@
 						</ul>
 						<ul class="gnb2">
 							<li><a href="#">흡/금연구역</a></li>
-							<li><a href="#">전자담배</li>
+							<li><a href="#">전자담배</a></li>
 							<li><a href="#">선호도</a></li>
 							<li><a href="#">자유게시판</a></li>
 						</ul>
@@ -109,7 +109,7 @@
 						</ul>
 						<ul class="gnb2">
 							<li><a href="#">흡/금연구역</a></li>
-							<li><a href="#">전자담배</li>
+							<li><a href="#">전자담배</a></li>
 							<li><a href="#">선호도</a></li>
 							<li><a href="#">자유게시판</a></li>
 						</ul>
@@ -127,7 +127,7 @@
 						</ul>
 						<ul class="gnb2">
 							<li><a href="#">흡/금연구역</a></li>
-							<li><a href="#">전자담배</li>
+							<li><a href="#">전자담배</a></li>
 							<li><a href="#">선호도</a></li>
 							<li><a href="#">자유게시판</a></li>
 						</ul>
