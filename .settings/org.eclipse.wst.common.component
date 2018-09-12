@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
     <wb-module deploy-name="HelloGetSmoker">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+<<<<<<< HEAD
+=======
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/"/>
+>>>>>>> 3a62386f560b2beb3d58518da95bd272e1042481
         <property name="context-root" value="HelloGetSmoker"/>
         <property name="java-output-path" value="/HelloGetSmoker/build/classes"/>
     </wb-module>

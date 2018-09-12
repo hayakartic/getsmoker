@@ -65,10 +65,17 @@
 							<li><a href="sign_up.jsp">회원가입</a></li>
 						</ul>
 						<ul class="gnb2">
+<<<<<<< HEAD:WebContent/index/main/main.jsp
 							<li><a href="area.jsp">흡/금연구역</a></li>
 							<li><a href="e_cigar.jsp">전자담배</a></li>
 							<li><a href="preference.jsp">선호도</a></li>
 							<li><a href="board.jsp">자유게시판</a></li>
+=======
+							<li><a href="#">흡/금연구역</a></li>
+							<li><a href="#">전자담배</a></li>
+							<li><a href="#">선호도</a></li>
+							<li><a href="#">자유게시판</a></li>
+>>>>>>> 3a62386f560b2beb3d58518da95bd272e1042481:WebContent/main.jsp
 						</ul>
 					</nav>
 				</div>
