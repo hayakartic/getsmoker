@@ -5,14 +5,8 @@
 <!doctype html>
 <html>
 <head>
-	<meta charset="utf-8" />
-	<title>My JSP Page</title>
-	<!-- Twitter Bootstrap3 & jQuery -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css" />
-	<link rel="stylesheet" href="css/reset.css" />
-	<script src="http://code.jquery.com/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<%@ include file="inc/route.jsp" %>
+    
 	<style>
 		html, body {width:100%; height:100; background:#eaeaea; }
 		
@@ -43,9 +37,8 @@
 		
 		
 		/** section */
-		.main_body_img {background:url(img/main_img.png) center center no-repeat; background-color:#eaeaea; width:auto; height:600px; }
+		.main_body_img {background:url(../../assets/img/main_img.png) center center no-repeat; background-color:#eaeaea; width:auto; height:600px; }
 		.clear {content: ''; display:block; float:none; clear:both;}
-		
 		
 		/** footer */
 		footer {background:#eaeaea;}
@@ -59,7 +52,7 @@
 				<div class="col-lg-3 visible-lg logo">
 					<h1>
 						<a href="#">
-							<img src="img/logo.jpg" alt="logo 담배로고"/>
+							<img src="../../assets/img/logo.jpg" alt="logo"/>
 							<span>getSmoker()</span>
 						</a>
 					</h1>
@@ -67,15 +60,15 @@
 				<div class="col-lg-9 visible-lg">
 					<nav>
 						<ul class="gnb1">
-							<li><a href="#">로그인</a></li>
-							<li><a href="#">이메일/비밀번호찾기</a></li>
-							<li><a href="#">회원가입</a></li>
+							<li><a href="login.jsp">로그인</a></li>
+							<li><a href="find.jsp">이메일/비밀번호찾기</a></li>
+							<li><a href="sign_up.jsp">회원가입</a></li>
 						</ul>
 						<ul class="gnb2">
-							<li><a href="#">흡/금연구역</a></li>
-							<li><a href="#">전자담배</li>
-							<li><a href="#">선호도</a></li>
-							<li><a href="#">자유게시판</a></li>
+							<li><a href="area.jsp">흡/금연구역</a></li>
+							<li><a href="e_cigar.jsp">전자담배</a></li>
+							<li><a href="preference.jsp">선호도</a></li>
+							<li><a href="board.jsp">자유게시판</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -91,7 +84,7 @@
 						</ul>
 						<ul class="gnb2">
 							<li><a href="#">흡/금연구역</a></li>
-							<li><a href="#">전자담배</li>
+							<li><a href="#">전자담배</a></li>
 							<li><a href="#">선호도</a></li>
 							<li><a href="#">자유게시판</a></li>
 						</ul>
@@ -109,7 +102,7 @@
 						</ul>
 						<ul class="gnb2">
 							<li><a href="#">흡/금연구역</a></li>
-							<li><a href="#">전자담배</li>
+							<li><a href="#">전자담배</a></li>
 							<li><a href="#">선호도</a></li>
 							<li><a href="#">자유게시판</a></li>
 						</ul>
@@ -127,7 +120,7 @@
 						</ul>
 						<ul class="gnb2">
 							<li><a href="#">흡/금연구역</a></li>
-							<li><a href="#">전자담배</li>
+							<li><a href="#">전자담배</a></li>
 							<li><a href="#">선호도</a></li>
 							<li><a href="#">자유게시판</a></li>
 						</ul>
@@ -149,5 +142,10 @@
 		<div class="container">footer
 		</div>
 	</footer>
+	
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="../../assets/js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../../assets/js/bootstrap.min.js"></script>
 </body>
 </html>
